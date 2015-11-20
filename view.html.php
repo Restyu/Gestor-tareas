@@ -1,8 +1,4 @@
-<?php 
-// echo "<pre>";
-// var_dump($datos);
-// echo "</pre>";
- ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -247,6 +243,7 @@
 					<a class="btn btn-default" href="<?=$base_url?>/eliminadas" role="button">Eliminadas</a>
 				<?php endif; ?>
 					<a class="btn btn-default" href="<?=$base_url?>/localizaciones" role="button">localizaciones</a>
+					<a class="btn btn-default" href="<?=$base_url?>/mapa" role="button">mapa</a>
 				</div>	
 			</div>
 	</div>

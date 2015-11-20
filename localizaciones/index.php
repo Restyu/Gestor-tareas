@@ -33,11 +33,11 @@ if (isset($_GET['nuevalocalizacion'])) {
 		$validar['localizacion'] = 'Introduce una localizacion.';
 	}
 
-	if ( is_numeric($latitud)) {
+	if (!is_numeric($latitud)) {
 		$validar['latitud'] = "Introduce una latitud";
 	}
 
-	if (is_numeric($longitud)){
+	if (!is_numeric($longitud)){
 		$validar['longitud'] = "Introduce una longitud";
 	}
 
